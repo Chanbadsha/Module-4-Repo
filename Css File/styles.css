@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #6A5ACD;
+    font-weight: 700;
+    font-size: 30px;
+    font-style: italic;
+}
+
+form {
+    background-color: #6A5ACD;
+    color: white;
+    max-width: 80%;
+    margin: auto;
+    /*  text-align: center; */
+    padding-top: 30px;
+
+}
+
+label {
+    display: block;
+    /* margin-top: 10px; */
+    padding: 10px;
+}
+
+.gender {
+    display: inline;
+}
