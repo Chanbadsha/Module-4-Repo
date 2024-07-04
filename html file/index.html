@@ -13,23 +13,30 @@
       <form action="#">
         <label for="first_name">
           First Name :
-          <input type="text" name="" id="first_name" />
+          <input
+            required
+            type="text"
+            name=""
+            id="first_name"
+            minlength="6"
+            maxlength="10"
+          />
         </label>
         <label for="last_name">
           Last Name :
-          <input type="text" name="" id="last_name" />
+          <input required type="text" name="" id="last_name" />
         </label>
         <label for="birthdte">
           Date of birth :
-          <input type="date" name="" id="birthdte" />
+          <input required type="date" name="" id="birthdte" />
         </label>
         <label for="email">
           Email ID :
-          <input type="email" name="" id="" />
+          <input required type="email" name="" id="" />
         </label>
         <label for="number">
           Mobile Number :
-          <input type="number" name="" id="number" />
+          <input min="5" required type="number" name="" id="number" />
         </label>
         <label class="gender" for="male">
           Gender
@@ -37,12 +44,12 @@
           Male
         </label>
         <label class="gender" for="female">
-          <input type="radio" name="gender" id="female" />
+          <input required type="radio" name="gender" id="female" />
           Female
         </label>
         <label for="address">
           Address :
-          <textarea name="" id="address"> </textarea>
+          <textarea required name="" id="address"> </textarea>
         </label>
         <label for="city">
           City :
@@ -103,6 +110,12 @@
             </tbody>
           </table>
         </fieldset>
+        <label for="submit"
+          ><input type="submit" value="Submit Your Data" class="btn"
+        /></label>
+        <label for="reset"
+          ><input type="reset" value="Reset All" class="btn"
+        /></label>
       </form>
     </main>
   </body>
